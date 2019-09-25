@@ -9,7 +9,8 @@ console.log("Din fiende: " + yourEnemysWeapon);
 
 if (yourWeapon == yourEnemysWeapon) { // Lika
     console.log("Oavgjort");
-} else if (yourWeapon != yourEnemysWeapon) {
+} // Om det inte är lika, måste det vara olika
+else {
     if (yourWeapon == "Sten") {
         if (yourEnemysWeapon == "Sax") {
             console.log("Du vinner");
